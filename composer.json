@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "helloTestable\\": "src"
+    }
+  },
+  "require-dev": {
+    "10up/wp_mock": "dev-dev",
+    "phpunit/phpunit": "^4.6 || ^5.0"
+  }
+}
