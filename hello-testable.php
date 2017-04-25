@@ -42,8 +42,8 @@ function helloTestableBootstrap()
     if (version_compare(PHP_VERSION, '5.3.9', '>=')) {
         require_once __DIR__ . '/vendor/autoload.php';
 
-        if (!defined('INTEGRITY_CHECKER_VERSION')) {
-            define('INTEGRITY_CHECKER_VERSION', $pluginVersion);
+        if (!defined('HELLO_TESTABLE_VERSION')) {
+            define('HELLO_TESTABLE_VERSION', $pluginVersion);
         }
 
         $app = new helloTestable\Pimple\Container();
